@@ -1,0 +1,8 @@
+Question: If you create a constructor method to build a DVD by title then create a constructor method to build a DVD by 
+category. Does JAVA allow you to do this?
+
+My asnwer: probably not. We can not create two or more constructors 
+having the same number of prameters and same type of parameters. Because
+this will cause "overloading constructors" and the compiler of Java can 
+not identify the difference between two constructors (base on the number
+of parameters and type of parameters)
